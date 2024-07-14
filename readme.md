@@ -42,7 +42,7 @@ A API foi criada utilizando as seguintes tecnologias:
                 "editora": ""
             }
         
-        Delte: http://localhost:3000/livros/Id, para deletar um livro especifico utilizado o ID.
+        Delete: http://localhost:3000/livros/Id, para deletar um livro especifico utilizado o ID.
 
 
     
