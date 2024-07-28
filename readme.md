@@ -12,13 +12,16 @@ A API foi criada utilizando as seguintes tecnologias:
     * Node.js:
         Instalar o express;
         Instalar o datenv;
-        No terminal do node para conectar com o banco de dados e executar o código digite: npm dev run.
+        No arquivo .env, incluir a string de conexão do mongoDB, onde inclui o usuario e senha.
+        No terminal do node para conectar com o banco de dados e executar o código digite: npm run dev
+        
 
     * MongoDB Atlas como banco de dados:
         Para acessar a base de dados é necessário logar na conta no MongoDB Atlas utilizando o link abaixo:
         https://cloud.mongodb.com/v2/668884d80e1fa22658d84fa5#/metrics/replicaSet/6688850a18348e40bad4485c/explorer/Livraria/livros/find
 
     * Postman para realizar os testes dos endpoints criados.
+        Documentação: https://documenter.getpostman.com/view/36647004/2sA3kaByfv
 
         Utilize os seguintes metódos para: 
 
@@ -46,4 +49,5 @@ A API foi criada utilizando as seguintes tecnologias:
         Delete: http://localhost:3000/livros/Id, para deletar um livro especifico utilizado o ID.
 
 
+O video encontra-se no gitHub.
     
